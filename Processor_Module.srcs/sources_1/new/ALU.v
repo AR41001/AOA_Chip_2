@@ -52,11 +52,11 @@ module ALU( R, S, Alu_op, Y, N, Z, C );
 		endcase
 		
 		//handle last two status flags
-		N = Y[15];
+		/*N = Y[15];
 		if  (Y == 16'b0)
 		      Z = 1'b1;
 		else
-		      Z = 1'b0;
+		      Z = 1'b0;*/
 				
 	end  //end always
 endmodule

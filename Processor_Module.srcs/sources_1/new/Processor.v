@@ -61,6 +61,31 @@ module Processor(clk, reset, D_out,D_OUT, Address, D_in, mw_en, status);
 	
     //Button_Press       u3 (  .clk(clk),  .BUTTONS(D_in), .Increase_duty(D_out), .Decrease_duty(D_out));
     
+assign status[7] = 0;
+assign status[6] = 0;
+assign status[5] = 0;
+assign status[4] = 0;
+assign status[3] = 0;
+assign status[2] = 0;
+assign status[1] = 0;
+assign status[0] = 0;
+
+assign D_OUT [15] = 0;
+assign D_OUT [14] = 0;
+assign D_OUT [13] = 0;
+assign D_OUT [12] = 0;
+assign D_OUT [11] = 0;
+assign D_OUT [10] = 0;
+assign D_OUT [9] = 0;
+assign D_OUT [8] = 0;
+assign D_OUT [7] = 0;
+assign D_OUT [6] = 0;
+assign D_OUT [5] = 0;
+assign D_OUT [4] = 0;
+assign D_OUT [3] = 0;
+assign D_OUT [2] = 0;
+assign D_OUT [1] = 0;
+assign D_OUT [0] = 0;
 
 
 
